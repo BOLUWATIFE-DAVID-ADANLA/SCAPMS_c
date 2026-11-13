@@ -1,0 +1,15 @@
+digraph GUI {
+  graph [rankdir=TB, splines=ortho, nodesep=0.3, ranksep=0.6, fontname="Helvetica", label="GUI Layer (Qt Widgets)", labelloc=t, fontsize=16];
+  node [shape=box, style="rounded,filled", fillcolor="#F4F5F8", fontname="Helvetica", fontsize=10];
+  edge [fontname="Helvetica", fontsize=9];
+  QMainWindow [fillcolor="#E9F5F6"]; QWidget [fillcolor="#E9F5F6"]; QStyledItemDelegate [fillcolor="#E9F5F6"];
+  MainWindow [fillcolor="#EEF2FD"];
+  BasePanel [label="«abstract» BasePanel\n+ refresh() = 0\nsignals: dataChanged(), statusMessage()", fillcolor="#EEF2FD"];
+  MainWindow -> QMainWindow [arrowhead=empty];
+  BasePanel -> QWidget [arrowhead=empty];
+  BadgeDelegate -> QStyledItemDelegate [arrowhead=empty];
+  {DashboardPanel PatientPanel AppointmentPanel QueuePanel SearchPanel ReportsPanel AdminPanel} -> BasePanel [arrowhead=empty];
+  MainWindow -> ClinicManager [arrowhead=diamond, xlabel="owns"];
+  BasePanel -> ClinicManager [style=dashed, arrowhead=open, xlabel="ClinicManager&"];
+  ClinicManager [fillcolor="#EDE7F8"];
+}

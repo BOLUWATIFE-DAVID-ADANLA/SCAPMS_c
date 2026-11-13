@@ -1,0 +1,57 @@
+#SCAPMS|1
+P|Emergency|P0006|Emeka Nwosu|27|09015566778|5|Road traffic injury
+P|General|P0001|Adaeze Okafor|21|08031234567|General Medicine|NHIS-44120
+P|Follow-Up|P0013|Yetunde Lawal|35|yetunde.lawal@unimail.ng|2026-09-19|Dr. Bello
+P|General|P0004|Ibrahim Musa|45|07061122334|Dental|
+P|General|P0018|Musa Danjuma|38|07087766554|Dental|
+P|Follow-Up|P0009|Ngozi Obi|61|08051239876|2026-09-23|Dr. Adeyemi
+P|Emergency|P0002|Tunde Bakare|34|08029876543|4|Severe asthma attack
+P|General|P0015|Amina Garba|16|08145566778|General Medicine|
+P|Follow-Up|P0007|Zainab Abdullahi|23|08167788990|2026-09-25|Dr. Okonkwo
+P|Emergency|P0011|Halima Sani|40|07034561234|3|High fever and dehydration
+P|Follow-Up|P0003|Chiamaka Eze|19|chiamaka.eze@student.edu.ng|2026-09-29|Dr. Adeyemi
+P|Follow-Up|P0016|Victor Okoro|47|09076655443|2026-09-16|Dr. Okonkwo
+P|General|P0010|Kelechi Uche|8|08099988877|Paediatrics|NHIS-11873
+P|General|P0005|Funmilayo Adebayo|52|08134455667|Eye Clinic|NHIS-90311
+P|General|P0014|Daniel Etim|72|08023344556|General Medicine|NHIS-77001
+P|General|P0008|Oluwaseun Ajayi|20|seun.ajayi@student.edu.ng|General Medicine|
+P|Emergency|P0017|Grace Johnson|25|08112233445|2|Allergic reaction
+P|General|P0012|Bolaji Ogunleye|30|08187654321|Physiotherapy|
+A|A0029|P0006|2026-10-16|09:00|Wound dressing|Pending
+A|A0001|P0001|2026-08-16|09:00|Routine check-up|Completed
+A|A0002|P0001|2026-09-15|10:30|Malaria treatment review|Completed
+A|A0003|P0001|2026-10-08|11:00|Blood test results|Completed
+A|A0021|P0001|2026-10-15|09:00|Follow-up blood test|Completed
+A|A0031|P0013|2026-10-18|11:00|Post-surgery review|Pending
+A|A0006|P0004|2026-09-25|13:00|Tooth extraction|Completed
+A|A0022|P0004|2026-10-15|10:00|Dental filling|Completed
+A|A0027|P0018|2026-10-15|16:30|Toothache|Pending
+A|A0010|P0009|2026-08-26|08:30|Hypertension diagnosis|Completed
+A|A0011|P0009|2026-09-05|08:30|Hypertension review|Completed
+A|A0012|P0009|2026-09-25|08:30|Hypertension review|Completed
+A|A0013|P0009|2026-10-05|08:30|Hypertension review|Completed
+A|A0014|P0009|2026-10-13|08:30|Hypertension review|Completed
+A|A0030|P0009|2026-10-22|08:30|Hypertension review|Pending
+A|A0020|P0002|2026-10-14|12:00|Asthma emergency|Completed
+A|A0026|P0015|2026-10-15|15:00|Sick note request|Cancelled
+A|A0023|P0007|2026-10-15|11:30|Post-treatment review|Pending
+A|A0025|P0011|2026-10-15|14:30|Fever monitoring|Pending
+A|A0004|P0003|2026-10-01|09:30|Initial consultation|Completed
+A|A0005|P0003|2026-10-10|14:00|Medication review|Completed
+A|A0028|P0003|2026-10-17|10:00|Lab results discussion|Pending
+A|A0032|P0016|2026-10-20|14:00|Physio progress check|Pending
+A|A0015|P0010|2026-10-03|11:30|Immunisation|Completed
+A|A0033|P0010|2026-10-29|10:30|Booster vaccination|Pending
+A|A0007|P0005|2026-08-31|10:00|Eye examination|Completed
+A|A0008|P0005|2026-09-30|10:00|Glasses fitting|Completed
+A|A0009|P0005|2026-10-12|15:00|Pressure check|Cancelled
+A|A0018|P0014|2026-09-20|09:00|Diabetes check|Completed
+A|A0019|P0014|2026-10-11|09:00|Diabetes check|Cancelled
+A|A0024|P0008|2026-10-15|13:00|Sports injury check|Pending
+A|A0034|P0017|2026-10-16|12:30|Allergy test|Pending
+A|A0016|P0012|2026-10-06|16:00|Back pain therapy|Completed
+A|A0017|P0012|2026-10-13|16:00|Back pain therapy|Completed
+Q|P0002|1792057695
+Q|P0008|1792058715
+Q|P0015|1792059495
+Q|P0011|1792059975
